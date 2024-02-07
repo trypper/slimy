@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="uz-UZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="X3NUdlB4RWUVOSUlFTA1NBIfZTQjLnYOCEc/LCUefQ4KLCcuFyoiBg==">
+    <title>SlimFit</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/jquery.formstyler.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css?v=0.2" rel="stylesheet">
+    <link href="css/phone.css" rel="stylesheet">
+    <link href="_shared/css/politic.css" rel="stylesheet">
+
+
+    <script>
+    var url = new URL(window.location.href);
+    var pixel = url.searchParams.get('pixel');
+    var tiktok = url.searchParams.get('tiktok');
+    var gtmId = url.searchParams.get('gtm');
+
+    if (pixel) {
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', pixel);
+        fbq('track', 'PageView');
+    }
+    if (tiktok) {
+        (function() {
+            var ta = document.createElement('script');
+            ta.type = 'text/javascript';
+            ta.async = true;
+            ta.src = 'https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=' + tiktok;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ta, s);
+        })();
+    }
+    if (gtmId) {
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', gtmId)
+    }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <a href="#" class="scroll"></a>
+            <a href="#" class="scroll"></a>
+            <a href="#" class="scroll"></a>
+            <a href="#" class="scroll"></a>
+            <a href="#" class="scroll"></a>
+            <a href="#" class="scroll"></a>
+            <a href="#" class="scroll"></a>
+        </nav>
+        <section class="intro">
+            <div class="container">
+                <a href="#" class="logo"></a>
+                <div class="row">
+                    <div class="col-md-3 col-lg-4">
+                        <div class="intro__slimCount">
+                            <div><b>35689</b><br><i>barqaror kamayishi</i></div>
+                            <img class="intro__mainImg" src="img/woman-compare-mob.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-lg-8">
+                        <div class="intro__text">
+                            <h1>Qanday qilib uy sharoitida bir hafta ichida 10 kg gacha xalos bo'lish mumkin?</h1>
+                            <h4>"Homlador va emizadigan ayollarga istemol qilish man etiladi"?</h4>
+                            <p>SlimFit sizga moddalar almashinuvini qayta tiklashga va ortiqcha vazndan xalos bo'lishga yordam beradi.</p>
+                            <ul class="intro__list">
+                                <li>Xavfsiz<br> ozish</li>
+                                <li>Terining cho'zilib<br> va osilib qolishisiz</li>
+                                <li>Kelishgan<br> ayollarda vaznning</li>
+                            </ul>
+                            <div class="order">
+                                <div class="row">
+                                    <img class="order__eliksir" src="img/eliksir-box.png?v=1" alt="" style="    width: 231px;     left: -14px;">
+                                    <div class="col-md-5">
+                                        <div class="order__promo">
+                                            <div class="order__discount">
+                                                chegirma
+                                                <b>-100<sup>%</sup></b>
+                                            </div>
+                                            <del class="order__regularPrice">
+                                                <span>99000</span> <span class="price_land_curr2">UZS</span>
+                                            </del>
+                                            <div class="order__promoPrice">
+                                                <span>100% ЧЕГИРМА</span> <span class="price_land_curr2"></span>
+                                            </div>
+                                            <div class="timer-wrap">
+                                                <div class="timer-wrap__title">AKSIYA SO'NGGIGACHA</div>
+                                                <div class="timer-wrap__info">QOLDI</div>
+                                                <div class="timer">
+                                                    <div class="digitHolder timer-2d">
+                                                        <div class="digitNumbers">
+                                                            <div class="digit timer-hrs1">0</div>
+                                                            <div class="digit timer-hrs2">9</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="digitHolder timer-2d">
+                                                        <div class="digitNumbers">
+                                                            <div id="timer-min" class="digit timer-min1">4</div>
+                                                            <div class="digit timer-min2">4</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="digitHolder timer-2d">
+                                                        <div class="digitNumbers">
+                                                            <div class="digit timer-sec1">4</div>
+                                                            <div class="digit timer-sec2">4</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="order__wrap">
+                                            <div class="order__fields">
+                                                <p class="order__title"> 70% chegirma bilan buyurtma qilishga ulguring!</p>
+                                            </div>
+                                            <form UZS class="order-form">
+                                                <div class="message"></div>
+                                                <select name="country" class="country country_select form__select" style="display:none">
+                                                    <option value="">Boshqa mamlakat</option>
+                                                    <option value="UZ">O`zbekiston</option>
+                                                </select> <input type="text" class="lv-input-fio" id="name" name="name" value="" maxlength="255" data-label="ФИО" data-required="" 0="lv-form-fio" placeholder="FIO" required>
+                                                <div class="input__phone">
+                                                    <div class="input__phone__prepend " style="display: flex;">
+                                                        <!-- <span class="input__phone__pretext">+998</span> -->
+                                                    </div>
+                                                    <input minlength="9" maxlength="12" no-auto-placeholder placeholder="-- --- -- --" type="tel" name="phone" class="phone input__phone__aftertext lv-input-phone"  id="phone" required="">
+                                                </div>
+                                                <button class="submitBtn btn">Chegirmani qo'lga kiritish</button>
+                                            </form>
+                                            <small class="order__people">bugunning o'zida <span>3 544 </span> kishi xarid qildi</small>
+                                            <div style="text-align: center; color: black;">
+                                                <span>*kursni sotib olayotganda narx</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="results">
+            <div class="container">
+                <div class="results__text">
+                    <h2>Erkaklar sizga hayrat bilan qarashadi, ayollar esa hasad qilishadi!</h2>
+                    <p>Propolis asosli SlimFit toksinlarni va ortiqcha suyuqlikni chiqarib yuborishga, organizmdagi metabolik jarayonlarni faollashtirishga yordam beradi. Barqaror va xavfsiz vazn yo'qotish osilib qolish belgilari va cho'zilgan terisiz sodir bo'ladi! Ota bobolarimiz doim tabiiy yo’l bilan davolanishgan va ancha sog’lom bo’lishgan. To’g’rimi? Maxsulotimiz tarkibida esa Milifoliumni hatto Iskandar Zulkarnayn o’z yurishlarida askarlarini davolashda ishlatgan.</p>
+                    <div class="results__wrap">
+                        <p>Sizning kelgusidagi natijalaringiz:</p>
+                        <div>
+                            <p>kuniga <span>1-2 kg gacha</span></p>
+                        </div>
+                        <div>
+                            <p>haftasiga <span>8-10 kg gacha</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="results__img">
+
+                </div>
+                <div class="results__ellipse">
+                    Va bularning barchasi moddalar almashinuvining yaxshilanganligi tufayli!
+                </div>
+            </div>
+        </section>
+        <section class="fat">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-lg-5">
+                        <img class="fat__img" src="img/fat.png" alt="">
+                    </div>
+                    <div class="col-md-7 col-lg-6">
+                        <div class="fat__text">
+                            <h2>Yog'laringiz ko'z oldingizda erib bitishi guvohi bo’lasiz!</h2>
+                            <p>Muntazam qo'llanilganda SlimFit tanadagi PPAR-proteinlar darajasini pasaytiradi. Ushbu oqsil yog' to'qimasi tarkibida mavjud bo'ladi va organizmda yog'larning "to'planishi" uchun javobgardir. Agar protein ishlab chiqarish darajasi pasaysa, yog' to'qimasi o'z-o'zidan yo'q bo'lib ketadi va odamning vazni kamayadi. <b>Yog' erishi hujayra darajasida sodir bo'ladi!</b></p>
+                            <a href="#buy" class="btn scroll">Hoziroq ozishni boshlang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="heavy">
+            <div class="container">
+                <h2>Ortiqcha vazn sizga nimasi bilan xavf soladi?</h2>
+                <ul>
+                    <li class="ico-heart">Yurak va qon-tomir kasalliklari</li>
+                    <li class="ico-diabet">Qandli diabet</li>
+                    <li class="ico-five">Oyoq-qo'llar ishlamay qolishi</li>
+                    <li class="ico-distr">Jigar distrofiyasi</li>
+                </ul>
+                <ul>
+                    <li class="ico-bespl">Bepushtlik</li>
+                    <li class="ico-invalid">Nogironlik</li>
+                    <li class="ico-rak">Saraton</li>
+                </ul>
+                <p class="heavy__bottom">SlimFit yordamida vazn yo'qotib, siz tanangizga SALOMATLIK hadya qilasiz.</p>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__specialist">
+                    <h2>Parhezshunos-mutaxassisi fikri</h2>
+                    <p>Odatda, bizga, ovqatlanish bo'yicha mutaxassislarga odamlar oxirida murojaat qilishadi. Sport va parhezlardan charchagan bemorlar shunchaki vazn nima uchun kamaymayotganligini tushunishmaydi.</p>
+                    <p>Buning faqat bitta sababi bor - moddalar almashinuvining sekinlashganligi. Metabolik jarayonlarning noto'g'ri ishlashi natijasida tez vazn ortadi va natijada yog' qatlamlari va sellyulit paydo bo'ladi. Bizning organizmimiz mustaqil ravishda, ya'ni bizning aralashuvimizsiz ishlashga qodir bo'lgan murakkab tizimdir. Agar biron bir nosozlik yuzaga kelsa, biz tanani bu muammoni hal qilishga yordam berishimiz kerak. Propolis asosli 100% tabiiy SlimFit - eng yaxshi tanlovdir! Va bu shunchaki gap emas. Elliksir ta'siri amalda sinovdan o'tkazilgan. Qisqa vaqt ichida bemorlar kerakli natijalarga erishadilar. Eng muhimi - kilogrammlar qaytmaydi! Men ortiqcha vazndan xalos bo'lishni istaydigan har bir kishiga SlimFit ni tavsiya qilaman.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="buy" id="buy">
+            <div class="container">
+                <a href="#" class="logo">
+                    <!-- <img src="img/logo.png" alt=""> -->
+                </a>
+                <div class="row">
+                    <div class="col-md-10 col-lg-9">
+                        <h2><span>Haftasiga 10 kg dan xalos bo'ling!</span>
+                            Yog'lardan xalos qiluvchi SlimFit yordamida!</h2>
+                        <img class="buy__img" src="img/woman-slim.png" alt="">
+                        <div class="order">
+                            <div class="row">
+                                <img class="order__eliksir" src="img/eliksir-box.png?v=1" alt="">
+                                <div class="col-md-5">
+                                    <div class="order__promo">
+                                        <div class="order__discount">
+                                            chegirma
+                                            <b>-100<sup>%</sup></b>
+                                        </div>
+                                        <del class="order__regularPrice">
+                                            <span>99000</span> <span class="price_land_curr2">UZS</span>
+                                        </del>
+                                        <div class="order__promoPrice">
+                                            <span>100% ЧЕГИРМА</span> <span class="price_land_curr2"></span>
+                                        </div>
+                                        <div class="timer-wrap">
+                                            <div class="timer-wrap__title">AKSIYA SO'NGGIGACHA</div>
+                                            <div class="timer-wrap__info">QOLDI</div>
+                                            <div class="timer">
+                                                <div class="digitHolder timer-2d">
+                                                    <div class="digitNumbers">
+                                                        <div class="digit timer-hrs1">0</div>
+                                                        <div class="digit timer-hrs2">9</div>
+                                                    </div>
+                                                </div>
+                                                <div class="digitHolder timer-2d">
+                                                    <div class="digitNumbers">
+                                                        <div id="timer-min" class="digit timer-min1">4</div>
+                                                        <div class="digit timer-min2">4</div>
+                                                    </div>
+                                                </div>
+                                                <div class="digitHolder timer-2d">
+                                                    <div class="digitNumbers">
+                                                        <div class="digit timer-sec1">4</div>
+                                                        <div class="digit timer-sec2">4</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="order__wrap">
+                                        <div class="order__fields">
+                                            <p class="order__title"> 70% chegirma bilan buyurtma qilishga ulguring!</p>
+                                        </div>
+                                        <form class="order-form">
+                                            <div class="message"></div>
+                                            <select name="country" class="country country_select form__select" style="display:none">
+                                                <option value="">Boshqa mamlakat</option>
+                                                <option value="UZ">O`zbekiston</option>
+                                            </select> <input type="text" class="lv-input-fio" id="name1" name="name" value="" maxlength="255" data-label="ФИО" data-required="" 0="lv-form-fio" placeholder="FIO" required>
+                                            <div class="input__phone">
+                                                <div class="input__phone__prepend" style="display: flex;">
+                                                    <!-- <span class="input__phone__pretext">+998</span> -->
+                                                </div>
+                                                <input minlength="9" maxlength="12" no-auto-placeholder placeholder="-- --- -- --" type="tel" name="phone" class="input__phone__aftertext lv-input-phone phone"  id="phone1" required="">
+                                            </div>
+                                            <button type="submit" class="submitBtn btn">Chegirmani qo'lga kiritish</button>
+                                        </form>
+                                        <small class="order__people">bugunning o'zida 3 544 kishi xarid qildi</small>
+
+                                        <div style="text-align: center; color: black;"><span>kursni sotib olayotganda narx</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="mx-mobal">"Homlador va emizadigan ayollarga istemol qilish man etiladi"</button>
+    </div>
+    <div class="Copyright">
+        <div class="Copyright-container" style="display: flex;align-items: center;justify-content: center;flex-direction: column;padding: 30px 0;">
+            
+            
+            <a style="text-align:center;color: #000;" href="mailto:goodproducts@gmail.com">goodproducts@gmail.com</a>
+            <div>
+                <a style="display:block;text-align:center;color: #000;" href="https://policy.deliverygoooods.com/en/">Privacy Policy</a>
+                <a style="display:block;text-align:center;color: #000;" href="https://policy.deliverygoooods.com/en/terms.html">Terms & Conditions</a>
+                <a style="display:block;text-align:center;color: #000;" href="https://policy.deliverygoooods.com/en/return.html">Return Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const enterNumber = (e) => {
+        const value = e.value
+        e.value = value.replace(/\D/g, '')
+    }
+    </script>
+
+
+    <script>
+    window.land_translates = {
+        phone_required: 'Raqamingizni kiriting!',
+        phone_min_length: 'Juda qisqa raqam!',
+        fio_requied: 'Ismingizni kiriting!',
+        email_required: 'Укажите e-mail!',
+        email_incorrect: 'Укажите корректный e-mail!',
+        orders_lastname_requied: 'Укажите Вашу фамилию!',
+        orders_city_requied: 'Укажите Ваш город!',
+        orders_street_requied: 'Укажите Вашу улицу!',
+        orders_house_requied: 'Укажите Ваш дом!',
+        orders_room_requied: 'Укажите Вашу квартиру!',
+        orders_index_requied: 'Укажите Ваш индекс!'
+    };
+    </script>
+
+
+
+
+
+    <script src="_shared/js/jquery/jquery.min.js"></script>
+    <!-- <script src="_shared/js/main.js"></script> -->
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/timer.js"></script>
+    <!-- <script src="_shared/js/politic.js"></script>     -->
+
+    <script>
+    $(function() {
+        $('input, select').styler();
+        $(".fancybox").fancybox({
+            padding: 0
+        });
+        $("a.scroll").click(function() {
+            var id = $(this).attr("href");
+            var pos = $(id).position().top;
+            $("html, body").animate({
+                scrollTop: pos
+            }, 1500);
+            return false;
+        });
+    });
+    </script>
+    <style>
+    .jq-selectbox {
+        display: none !important;
+    }
+    </style>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js" integrity="sha512-d4KkQohk+HswGs6A1d6Gak6Bb9rMWtxjOa0IiY49Q3TeFd5xAzjWXDCBW9RS7m86FQ4RzM2BdHmdJnnKRYknxw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+    $(document).ready(function(){
+
+$.mask.definitions['#'] = $.mask.definitions['9'];
+$.mask.definitions['9'] = null; 
+
+  $('.phone').mask("+998#########").on('click', function () {
+    if ($(this).val()) {
+        $(this).get(0).setSelectionRange(0, 0);
+    }
+    
+});
+
+});
+</script>
+
+
+    <script src="api.js"></script>
+    <script async defer src="https://mtrkt.com/tracker/analytics.js"></script>
+
+
+<!-- MTRKT -->
+<script async defer src="https://mtrkt.com/tracker/analytics.js"></script>
+<!-- END MTRKT -->
+</body>
+
+</html>
